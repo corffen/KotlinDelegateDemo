@@ -31,8 +31,9 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-
+//为所有的工程进行配置
 allprojects {
+    //为工程添加依赖仓库
     repositories {
         maven { url MAVEN_RELEASE_URL }
         maven { url MAVEN_SNAPSHOT_URL }

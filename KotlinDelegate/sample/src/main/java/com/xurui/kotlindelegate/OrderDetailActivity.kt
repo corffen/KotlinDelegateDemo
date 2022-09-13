@@ -34,7 +34,7 @@ class OrderDetailActivity : AppCompatActivity() {
             commit()
         }
 
-        OrderDetailDialogFragment().show(supportFragmentManager, "")
+        OrderDetailDialogFragment.newInstance(orderId, orderType).show(supportFragmentManager, "")
     }
 }
 

@@ -43,6 +43,6 @@ dependencies {
     implementation rootProject.ext.dependencies.constraintlayout
     implementation rootProject.ext.dependencies.recyclerview
     implementation rootProject.ext.dependencies.lifecycleExt
+    implementation project(path: ':ktx')
 
-    implementation 'com.pengxr:ktx:v1.0.0'
 }
